@@ -1,0 +1,24 @@
+body{
+    background-color: #cccccc;
+}
+#found-result{
+    padding-left: 44px;
+    font-size: 20px;
+    color: gray;
+}
+#No-result{
+    margin:0px auto;
+}
+#blog{
+    text-decoration: none;
+    color:black;
+}
+#news{
+    text-decoration: none;
+    color: #0dcaf0;
+}
+@media screen and (max-width:576px) {
+    .media img{
+        width: 576px;
+    }
+}
