@@ -2,10 +2,10 @@ body{
     background-color: #cccccc;
 }
 #found-result{
-    padding-left: 44px;
     font-size: 20px;
     color: gray;
 }
+
 #No-result{
     margin:0px auto;
 }
@@ -21,4 +21,11 @@ body{
     .media img{
         width: 576px;
     }
+}
+.rounded-circle{
+    transition: .3s ease;
+
+}
+.rounded-circle:hover{
+    transform: scale(1.3);
 }

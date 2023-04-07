@@ -43,7 +43,7 @@ const displayNews=portals=>{
 
     const resultFound=document.getElementById('found-result');
     resultFound.innerHTML=`
-    <div class="container">  <p style="margin-bottom:0px">${portals.length} items found for this catagory</p></div>
+    <div><p style="margin-bottom:0px">${portals.length} items found for this catagory</p></div>
     `;
 
 
@@ -57,7 +57,7 @@ const displayNews=portals=>{
         createDiv.innerHTML=`
         <div class="row g-0 ">
             <div class="col-md-4 media">
-                <img src="${portal.thumbnail_url}" class="img-fluid     rounded-start" alt="...">
+                <img src="${portal.thumbnail_url}" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
